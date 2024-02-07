@@ -1,19 +1,271 @@
 {
-  "posts": [
+  "campsites": [
+    {
+      "id": 0,
+      "name": "Taiwan Oolong tea",
+      "image": "https://i.ibb.co/c8V0cyr/taiwan-Oolong-tea.png",
+      "elevation": 2901,
+      "featured": false,
+      "description": "Taiwan High-Moutain Oolong tea brews a lilac flavor that is smooth with a fresh orchid finish. Oolong tea leaves are hand-picked and basket tossed in a process known as oxidization."
+    },
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Japan Matcha",
+      "image": "https://i.ibb.co/266TTSx/matcha.png",
+      "elevation": 42,
+      "featured": true,
+      "description": "Japanese matcha provides a rich, complex taste and a boost of calm energy for the day."
+    },
+    {
+      "id": 2,
+      "name": "China White Tea",
+      "image": "https://i.ibb.co/tBXh3t2/china-white-tea.png",
+      "elevation": 1233,
+      "featured": false,
+      "description": "Silver-tipped white tea harvested at the base of the Himalayas in Darjeeling. Rare and unique bud and leaf grades are hand harvested in small quantities. Deliver a delicate flavor profile and smooth round finish."
+    },
+    {
+      "id": 3,
+      "name": "English Breakfast Tea",
+      "image": "https://i.ibb.co/gSPGMDT/english-breakfast-tea.png",
+      "elevation": 877,
+      "featured": false,
+      "description": "This robust black tea brews smooth and malty, with a clean finish. Perfect for starting the day!"
     }
   ],
   "comments": [
     {
+      "id": 0,
+      "campsiteId": 0,
+      "rating": 5,
+      "text": "The grass was indeed greener here than our last campsite.",
+      "author": "Simon Hunt",
+      "date": "2018-10-25T16:30Z"
+    },
+    {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "campsiteId": 0,
+      "rating": 3,
+      "text": "This lone monkey kept following us back to our tent.",
+      "author": "Zandra Katherine",
+      "date": "2017-06-17T03:33Z"
+    },
+    {
+      "id": 2,
+      "campsiteId": 0,
+      "rating": 4,
+      "text": "Do not feed the wildlife. They will follow you back to the tent.",
+      "author": "Amy Keophilavong",
+      "date": "2019-02-18T18:12Z"
+    },
+    {
+      "id": 3,
+      "campsiteId": 0,
+      "rating": 3,
+      "text": "Avoid Sundays; couldn't relax and play my flute with all the noisy kids.",
+      "author": "Jean Luc",
+      "date": "2019-08-04T20:11Z"
+    },
+    {
+      "id": 4,
+      "campsiteId": 0,
+      "rating": 5,
+      "text": "This has been our favorite campsite for over 7 years. It is an absolutely beautiful site. The hosts are very friendly and helpful. Don't forget to try out the lake.",
+      "author": "R. E. Osariemen",
+      "date": "2018-07-23T19:44Z"
+    },
+    {
+      "id": 5,
+      "campsiteId": 1,
+      "rating": 4,
+      "text": " Stone-ground fresh leaves into a powder for a frothy, creamy, and smooth finish when prepared!.",
+      "author": "Juan Cortez",
+      "date": "2017-06-17T03:33Z"
+    },
+    {
+      "id": 6,
+      "campsiteId": 1,
+      "rating": 5,
+      "text": "I caught a world-record-breaking trout here on my last visit.",
+      "author": "McKenzie Sebastian",
+      "date": "2019-02-18T18:12Z"
+    },
+    {
+      "id": 7,
+      "campsiteId": 1,
+      "rating": 5,
+      "text": "The campground was beautiful, but the bugs could bite sometimes.",
+      "author": "Brennen Ech",
+      "date": "2019-08-04T20:11Z"
+    },
+    {
+      "id": 8,
+      "campsiteId": 1,
+      "rating": 4,
+      "text": "Love the river but I didn't catch any fish.",
+      "author": "Amy Keophilavong",
+      "date": "2018-07-23T19:44Z"
+    },
+    {
+      "id": 9,
+      "campsiteId": 1,
+      "rating": 5,
+      "text": "A wonderful place to reconnect with nature.",
+      "author": "Jordan Runn",
+      "date": "2019-08-04T20:11Z"
+    },
+    {
+      "id": 10,
+      "campsiteId": 2,
+      "rating": 5,
+      "text": "The Frozen Tundra is great place for family and friends camping!",
+      "author": "Olaf the Snowman",
+      "date": "2019-02-18T18:12Z"
+    },
+    {
+      "id": 11,
+      "campsiteId": 2,
+      "rating": 1,
+      "text": "We had to leave about 2am to go back to the city because the quiet was just too much!",
+      "author": "Vincent and Mona Lisa Gambini",
+      "date": "2018-10-25T16:30Z"
+    },
+    {
+      "id": 12,
+      "campsiteId": 2,
+      "rating": 5,
+      "text": "The stars at night were a revelation!",
+      "author": "Ann Dabramov",
+      "date": "2018-07-23T19:44Z"
+    },
+    {
+      "id": 13,
+      "campsiteId": 2,
+      "rating": 4,
+      "text": "Great scenic hiking trails but it was challenging to go up the mountain.",
+      "author": "Amy Keophilavong",
+      "date": "2018-10-25T16:30Z"
+    },
+    {
+      "id": 14,
+      "campsiteId": 2,
+      "rating": 5,
+      "text": "Perfect scenery for a smoked kipper breakfast with friends!",
+      "author": "Dave Lister",
+      "date": "2019-08-04T20:11Z"
+    },
+    {
+      "id": 15,
+      "campsiteId": 3,
+      "rating": 4,
+      "text": "Just remember a bear can run and climb faster than you...",
+      "author": "Markell Richards",
+      "date": "2017-06-17T03:33Z"
+    },
+    {
+      "id": 16,
+      "campsiteId": 3,
+      "rating": 5,
+      "text": "Excellent site to recharge from the city.",
+      "author": "Amy Keophilavong",
+      "date": "2018-07-23T19:44Z"
+    },
+    {
+      "id": 17,
+      "campsiteId": 3,
+      "rating": 5,
+      "text": "What a magnificent view!",
+      "author": "Tinus Lorvaldes",
+      "date": "2018-10-25T16:30Z"
+    },
+    {
+      "id": 18,
+      "campsiteId": 3,
+      "rating": 4,
+      "text": "The sites are huge! We felt like we were in the middle of nowhere, in a good way.",
+      "author": "Chloe Haskins",
+      "date": "2017-06-17T03:33Z"
+    },
+    {
+      "id": 19,
+      "campsiteId": 3,
+      "rating": 5,
+      "text": "The photos don't do justice to the beauty of this place.",
+      "author": "Minae Lee",
+      "date": "2019-02-18T18:12Z"
+    },
+    {
+      "campsiteId": 3,
+      "rating": 5,
+      "author": "test",
+      "text": "test",
+      "date": "2024-01-20T20:55:34.173Z",
+      "id": 20
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "partners": [
+    {
+      "id": 0,
+      "name": "Tea Arts & Culture",
+      "image": "https://i.ibb.co/3FnGVc7/Tea-Arts-Culture.png",
+      "featured": false,
+      "description": "Tea Arts & Culture is committed to bringing people together to explore, cultivate, and share an appreciation of tea."
+    },
+    {
+      "id": 1,
+      "name": "World Tea Expo",
+      "image": "https://i.ibb.co/1G32tQq/world-tea-expo.png",
+      "featured": false,
+      "description": "An infusion of fresh ideas for the new era of tea!"
+    },
+    {
+      "id": 2,
+      "name": "Eco-Cha",
+      "image": "https://i.ibb.co/yskNxR0/eco-cha.png",
+      "featured": false,
+      "description": "Eco-Cha was created to represent the artisan tea industry in Taiwan and to offer tea lovers worldwide the best teas in Taiwan."
+    },
+    {
+      "id": 3,
+      "name": "Brewing Tea",
+      "image": "https://i.ibb.co/WDGxbBP/brewed-tea.jpg",
+      "featured": false,
+      "description": "Introduction to Chinese Tea Ceremony to learn the basics of performing Chinese Tea Ceremony."
+    }
+  ],
+  "promotions": [
+    {
+      "id": 0,
+      "name": "Taiwanese tea tasting with fine dining",
+      "image": "https://i.ibb.co/rxYMqTm/food-tea.jpg",
+      "featured": true,
+      "description": "Combining notes of cooling mint with the taste of smooth, decadent chocolate in a bold infusion."
+    },
+    {
+      "id": 1,
+      "name": "Green Pomegranate Iced Tea",
+      "image": "https://i.ibb.co/kXWpcMT/Green-Pomegranate-Iced-Tea.png",
+      "featured": true,
+      "description": "Select organic green tea hand-tossed in a large wok, dried to perfection, then carefully blended with organic raspberries and essence of pomegranate."
+    },
+    {
+      "id": 2,
+      "name": "Rose Tea",
+      "image": "https://i.ibb.co/mNm9tm3/Rose-Tea.png",
+      "featured": false,
+      "description": "Rose tea, a floral, creamy blend that was designed to restore balance in the body, mind, and soul.."
+    }
+  ],
+  "feedback": [
+    {
+      "id": 0,
+      "firstname": "Test",
+      "lastname": "Test",
+      "phoneNum": "12345",
+      "email": "test@test.com",
+      "agree": true,
+      "contactType": "Email",
+      "feedback": "test"
+    }
+  ]
 }
