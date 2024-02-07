@@ -1,12 +1,48 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+h1 {
+  color: #333333;
+  font-family: 'Open Sans', Arial, sans-serif, cursive;
+  font-size: 32px;
+  font-weight: bold;
+  position: absolute;
+  top: 35px;
+  left: 150px;
+}
 
-h1,
 h2,
 h3,
 .card-body > .card-title {
-  font-family: 'Lobster', cursive;
+  color: black;
+  font-family: 'Open Sans', cursive;
+  font-weight: bold;
+}
+
+h4 {
+  color: #5ea270;
+  font-size: medium;
+}
+
+span {
+  text-decoration: underline; 
+  color: #e0e0e0;
+  font-size:large
+}
+
+i, a{
+  color: #00000099; 
+  font-family: 'Open Sans', cursive;
+  font-size: 20px;
+  font-weight:600;
+}
+p{
+  font-family: 'Open Sans', cursive;
+  font-size: 17px;
+  /* You can also specify other font properties like font-size, font-weight, etc. if needed */
+}
+i:hover {
+  color: #d3d3d3; /* Light grey color */
 }
 
 .card-title {
@@ -30,7 +66,7 @@ h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(#cec8ff, white);
+  background-color:#333333;
   padding: 20px 0;
   margin-top: 2rem;
 }
@@ -41,15 +77,15 @@ h2 {
 }
 
 .navbar-brand img {
-  width: 100%;
-  height: 100%;
-  margin-right: 2rem;
-  max-width: 4rem;
+  width: 150%;
+  height: 150%;
+  margin-right: rem;
+  max-width: 12rem;
 }
 
 .navbar-dark {
-  background-color: #901cad;
-  background-image: linear-gradient(to right, #5637dd, #3046c5, #510e5a);
+  background-color: #FFFFFF;
+  background-image:  linear-gradient(to right, #FFFFFF, #FFFFFF, #FFFFFF);
   margin-bottom: 2rem;
   min-height: 8rem;
 }

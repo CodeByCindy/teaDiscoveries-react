@@ -7,16 +7,16 @@ const SubHeader = ({ current, detail }) => {
             <Col>
                 <Breadcrumb>
                     <BreadcrumbItem>
-                        <Link to='/'>Home</Link>
+                        <Link style={{textDecoration: "none", fontSize:'15px', color:'#6c758d', fontWeight:'500'}} to='/'>Home </Link>
                     </BreadcrumbItem>
                     {detail && (
                         <BreadcrumbItem>
-                            <Link to='/directory'>Directory</Link>
+                            <Link style={{textDecoration: "none", fontSize:'15px', color:'#6c758d', fontWeight:'500'}} to='/directory'>Directory</Link>
                         </BreadcrumbItem>
                     )}
-                    <BreadcrumbItem active>{current}</BreadcrumbItem>
+                    <BreadcrumbItem active style={{fontSize:'16px', color:'#6c757d'}} >{current}</BreadcrumbItem>
                 </Breadcrumb>
-                <h2>{current}</h2>
+                {/* <h2>{current}</h2> */}
                 <hr />
             </Col>
         </Row>

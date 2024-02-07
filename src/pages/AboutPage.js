@@ -1,4 +1,4 @@
-import { Row, Col, Container, Card, CardBody, CardHeader } from 'reactstrap';
+import { Row, Col, Container, Card, CardBody, CardHeader, CardTitle } from 'reactstrap';
 import SubHeader from "../components/SubHeader";
 import PartnersList from '../features/partners/PartnerList';
 const AboutPage = () => {
@@ -7,31 +7,28 @@ const AboutPage = () => {
             <SubHeader current='About Us' />
             
             <Row className='row-content'>
-                <Col sm='6'>
-                    <h3>Our Mission</h3>
+                <Col sm='12'>
+                    <h3>About Us</h3>
                     <p>
-                        We present a curated database of the best campsites in the
-                        vast woods and backcountry of the World Wide Web Wilderness.
-                        We increase access to adventure for the public while
-                        promoting safe and respectful use of resources. The expert
-                        wilderness trekkers on our staff personally verify each
-                        campsite to make sure that they are up to our standards. We
-                        also present a platform for campers to share reviews on
-                        campsites they have visited with each other.
+                    At Tea Discoveries, we believe that every cup of tea tells a story, 
+                    and we are dedicated to bringing you on a journey through the rich tapestry of tea cultures from around the world. 
+                    Our passion for tea is deeply rooted in tradition, family heritage, and the art of cultivation.
+                    <br/>
+                    We aim to bridge the gap between the artisanal world of tea cultivation in Taiwan and tea enthusiasts around the globe. 
+                    Our mission is to create a space where you can not only discover a diverse range of premium teas but also delve 
+                    into the fascinating stories behind each variety.
                     </p>
                 </Col>
                 <Col sm='6'>
-                    <Card>
-                        <CardHeader className='bg-primary text-white'>
-                            <h3>Facts at Glance</h3>
+                    <Card >
+                        <CardHeader className='bg-success text-white'>
+                        <CardTitle tag="h5">Facts at Glance </CardTitle>
                         </CardHeader>
                         <CardBody>
                             <dl className='row'>
                                 <dt className='col-6'>Founded</dt>
-                                <dd className='col-6'>February 3, 2016</dd>
-                                <dt className='col-6'>No. of Campsites in 2019</dt>
-                                <dd className='col-6'>563</dd>
-                                <dt className='col-6'>No. of Reviews in 2019</dt>
+                                <dd className='col-6'>February 3, 1963</dd>
+                                <dt className='col-6'>No. of Reviews in 2022</dt>
                                 <dd className='col-6'>4388</dd>
                                 <dt className='col-6'>Employees</dt>
                                 <dd className='col-6'>42</dd>

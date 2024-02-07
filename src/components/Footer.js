@@ -1,30 +1,40 @@
 import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
+import teaLogo from '../app/assets/images/teaLogo.png';
 
 const Footer = () => {
     return (
         <footer className='site-footer'>
             <Container>
                 <Row>
+                    <Col sm='2'  className='text-center'>
+                    <h4>
+                    <img decoding="async" src={teaLogo} alt='tea logo' width="50%" height="50%"/>
+                    <br/>
+                    <strong><a>Tea Discoveries</a></strong>
+                    </h4>
+                    </Col>
                     <Col xs={{ size: 4, offset: 1 }} sm='2'>
-                        <h5>Links</h5>
+                        <strong><h4>QUUICK LINKS</h4></strong>
                         <ul className='list-unstyled'>
+                       
+                            <li> 
+                                <Link to='/'><span>Home</span></Link>
+                            </li>
+                            
                             <li>
-                                <Link to='/'>Home</Link>
+                                <Link to='/directory'><span>Directory</span></Link>
                             </li>
                             <li>
-                                <Link to='/directory'>Directory</Link>
+                                <Link to='/about'><span>About</span></Link>
                             </li>
                             <li>
-                                <Link to='/about'>About</Link>
-                            </li>
-                            <li>
-                                <Link to='/contact'>Contact</Link>
+                                <Link to='/contact'><span>Contact</span></Link>
                             </li>
                         </ul>
                     </Col>
                     <Col xs='6' sm='3' className='text-center'>
-                        <h5>Social</h5>
+                        <strong><h4>Social</h4></strong>
                         <a
                             className='btn btn-social-icon btn-instagram'
                             href='http://instagram.com/'
@@ -50,21 +60,22 @@ const Footer = () => {
                             <i className='fa fa-youtube' />
                         </a>
                     </Col>
-                    <Col sm='4' className='text-center'>
+                    <Col sm='2' className='text-center'>
+                        <h4>Contact Info</h4>
                         <a
                             role='button'
                             className='btn btn-link'
-                            href='tel:+12065551234'
+                            href='tel:+15104277563'
                         >
-                            <i className='fa fa-phone' /> 1-206-555-1234
+                        <span>1-510-427-7563</span> 
                         </a>
                         <br />
                         <a
                             role='button'
                             className='btn btn-link'
-                            href='mailto:notreal@notreal.co'
+                            href='mailto:cindy.psu.h@gmail.com'
                         >
-                            <i className='fa fa-envelope-o' /> campsites@nucamp.co
+                            <span>cindy.psu.h@gmail.com</span> 
                         </a>
                     </Col>
                 </Row>

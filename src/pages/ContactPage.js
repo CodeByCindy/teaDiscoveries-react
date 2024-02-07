@@ -8,9 +8,9 @@ const ContactPage = () => {
         <SubHeader current='Contact'/>
         <Row className="row-content align-itmes-center">
             <Col sm='4'>
-                <h5>Our Address</h5>
+                <h4>Our Address</h4>
                 <address>
-                    1 NuCamp Way
+                    1 Cup Life
                     <br/>
                     Seattle, WA 98001
                     <br/>
@@ -18,12 +18,13 @@ const ContactPage = () => {
                 </address>
             </Col>
             <Col>
+                <h4>Contact Info</h4>
                 <a
                     role='button'
                     className="btn btn-link"
-                    href='tel: +12065551234'
+                    href='tel: +1510-427-7563'
                 >
-                    <i className="fa fa-phone" /> 1-206-555-1234 
+                    <i className="fa fa-phone" /> 1-510-427-7563
                 </a>
                 <br/>
                 <a
@@ -37,14 +38,13 @@ const ContactPage = () => {
         </Row>
         <Row className='row-content'>
                 <Col xs='12'>
-                    <h2>Send Us Your Feedback</h2>
+                    <h3>Send Us Your Feedback</h3>
                     <hr />
                 </Col>
                 <Col md='10'>
                     <ContactForm/>
                 </Col>
         </Row>
-        ContactPage
     </Container>
     );
 };

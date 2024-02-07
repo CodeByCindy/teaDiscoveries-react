@@ -33,6 +33,7 @@ const promotionsSlice = createSlice({
             state.isLoading = false;
             state.errMsg = '';
             state.promotionsArray = mapImageURL(action.payload);
+            console.log('img path:',state.promotionsArray);
         },
         [fetchPromotions.rejected]: (state, action) => {   
             state.isLoading = false;

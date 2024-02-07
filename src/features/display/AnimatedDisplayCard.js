@@ -17,8 +17,9 @@ const AnimatedDisplayCard = ({ item }) => {
     }, []);
 
     return (
+        
         <animated.div style={animatedStyle}>
-            <Card>
+            <Card style={{ height: '100%' }}>
                 <CardImg src={image} alt={name} />
                 <CardBody>
                     <CardTitle>{name}</CardTitle>
