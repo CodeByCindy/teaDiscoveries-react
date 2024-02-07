@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <Navbar dark color='secondary' sticky='top' expand='md'>
             <NavbarBrand className='ms-5' href='/'>
-                <img src={teaLogo} alt='tea logo' className='float-start' />
+                <img src={teaLogo} width="50%" height="50%" alt='tea logo' className='float-start' />
                 <h1 className='mt-1'><strong>Tea Discoveries</strong></h1>
             </NavbarBrand>
             <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />

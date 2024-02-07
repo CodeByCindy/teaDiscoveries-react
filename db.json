@@ -220,15 +220,15 @@
     },
     {
       "id": 2,
-      "name": "Eco-Cha",
-      "image": "https://i.ibb.co/yskNxR0/eco-cha.png",
+      "name": "Global Japanese Tea Association",
+      "image": "https://i.ibb.co/YQnBJJJ/GJTA-logo.png",
       "featured": false,
-      "description": "Eco-Cha was created to represent the artisan tea industry in Taiwan and to offer tea lovers worldwide the best teas in Taiwan."
+      "description": "Global Japanese Tea Association is a membership-driven, non-profit, non-governmental organization that aims to spark growth in the Japanese tea world "
     },
     {
       "id": 3,
       "name": "Brewing Tea",
-      "image": "https://i.ibb.co/WDGxbBP/brewed-tea.jpg",
+      "image": "https://i.ibb.co/K73rV71/brewing-tea.jpg",
       "featured": false,
       "description": "Introduction to Chinese Tea Ceremony to learn the basics of performing Chinese Tea Ceremony."
     }
@@ -253,7 +253,7 @@
       "name": "Rose Tea",
       "image": "https://i.ibb.co/mNm9tm3/Rose-Tea.png",
       "featured": false,
-      "description": "Rose tea, a floral, creamy blend that was designed to restore balance in the body, mind, and soul.."
+      "description": "Rose tea, a floral, was designed to restore balance in the body, mind, and soul.."
     }
   ],
   "feedback": [
