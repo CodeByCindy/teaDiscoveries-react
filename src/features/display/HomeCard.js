@@ -1,15 +1,21 @@
 
-import {Card, CardImg, CardImgOverlay, CardBody, CardText} from 'reactstrap';
+import {Card, CardImg, CardImgOverlay, CardTitle, CardBody, CardText} from 'reactstrap';
 import homeCardImage from '../../app/assets/images/teaPlanting.jpg';
 // import './HomeCard.css'
 const HomeCard = () => {
     return (
         <Card className="w-100">
-            <CardImg src={homeCardImage} alt='home-card-image' />
+            <CardImg 
+                src={homeCardImage} 
+                alt='home-card-image' 
+                height="80%"
+                  width="100%"
+            />
             {/* <CardBody>
                 <CardText>{description}</CardText>
             </CardBody> */}
             <CardImgOverlay>
+
                 <CardBody style={{ color: 'white', fontSize: '60px', textAlign: 'center' , fontWeight:'bold', paddingTop: '200px'}}>
                 Tea Adventure
                 </CardBody>

@@ -228,8 +228,8 @@
     {
       "id": 3,
       "name": "Brewing Tea",
-      "image": "https://i.ibb.co/K73rV71/brewing-tea.jpg",
-      "featured": false,
+      "image": "https://i.ibb.co/WDGxbBP/brewed-tea.jpg",
+      "featured": true,
       "description": "Introduction to Chinese Tea Ceremony to learn the basics of performing Chinese Tea Ceremony."
     }
   ],
