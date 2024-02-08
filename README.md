@@ -22,7 +22,7 @@ The website is currently hosted on Netlify at the following URL: [teaDiscoveries
 - Redux: Used for managing application state and data flow.
 - Redux Thunk: Used as a middleware to handle asynchronous actions in Redux.
 - Formik: Used for managing forms and input validation.
-- JSON Server: Used as a simple backend to store tea data and user comments.
+- JSON Server: Used as a simple backend to store tea data and user comments. Running on Heroku
 - Netlify: Used for hosting the website.
 
 ## Future Improvements
@@ -32,6 +32,7 @@ In future versions of teaDiscoveries, the following features are planned for imp
 - Move server to Google Firebase for improved scalability and reliability.
 - Add user registration functionality to allow users to create accounts.
 - Implement login/logout functionality to enhance user experience and security.
+- Implement in React Native as mobile app
 
 ## Contributing
 
