@@ -16,14 +16,13 @@ const AnimatedDisplayCard = ({ item }) => {
         setToggle(true);
     }, []);
 
-    return (
-        
+    return (      
         <animated.div style={animatedStyle}>
             <Card style={{ height: '100%' }}>
-                <CardImg src={image} alt={name} />
+                <CardImg src={image} alt={name} top width="50%"/>
                 <CardBody>
-                    <CardTitle>{name}</CardTitle>
-                    <CardText>{description}</CardText>
+                    <CardTitle tag="h5">{name}</CardTitle>
+                    <CardText tag="h6">{description}</CardText>
                 </CardBody>
             </Card>
         </animated.div>

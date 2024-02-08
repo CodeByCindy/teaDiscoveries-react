@@ -5,8 +5,10 @@ import HomeCard from '../features/display/HomeCard';
 const HomePage = () => {
     return (
         <Container>
-            <HomeCard/>
             {/* <SubHeader current='Home' /> */}
+            <HomeCard/>
+            <br/>
+            <br/>
             <DisplayList />
         </Container>
     );

@@ -8,14 +8,10 @@ const HomeCard = () => {
             <CardImg 
                 src={homeCardImage} 
                 alt='home-card-image' 
-                height="80%"
+                height="75%"
                   width="100%"
             />
-            {/* <CardBody>
-                <CardText>{description}</CardText>
-            </CardBody> */}
             <CardImgOverlay>
-
                 <CardBody style={{ color: 'white', fontSize: '60px', textAlign: 'center' , fontWeight:'bold', paddingTop: '200px'}}>
                 Tea Adventure
                 </CardBody>

@@ -26,7 +26,7 @@ h4 {
 
 span {
   text-decoration: underline; 
-  color: #e0e0e0;
+  color: #d3d3d3;
   font-size:large
 }
 
@@ -39,10 +39,9 @@ i, a{
 p{
   font-family: 'Open Sans', cursive;
   font-size: 17px;
-  /* You can also specify other font properties like font-size, font-weight, etc. if needed */
 }
 i:hover {
-  color: #d3d3d3; /* Light grey color */
+  color: #d3d3d3;
 }
 
 .card-title {
@@ -79,10 +78,15 @@ h2 {
 .navbar-brand img {
   width: 150%;
   height: 150%;
-  margin-right: rem;
+  margin-right: 2rem;
   max-width: 12rem;
 }
-
+.navbar-text{
+  color: #d3d3d3;
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 2rem;
+}
 .navbar-dark {
   background-color: #FFFFFF;
   background-image:  linear-gradient(to right, #FFFFFF, #FFFFFF, #FFFFFF);
