@@ -1,8 +1,3 @@
-
-Sure, here's the updated README.md file with the additional technical skills:
-
-markdown
-Copy code
 # teaDiscoveries
 
 Welcome to teaDiscoveries, a website for tea lovers to explore different types of teas, share their experiences, and leave feedback.
