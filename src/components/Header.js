@@ -18,7 +18,6 @@ const Header = () => {
         <Navbar dark color='primary' sticky='top' expand='md'>
             <NavbarBrand className='ms-5' href='/'>
             <img src={teaLogo} alt='tea logo' className='float-start' />
-                <h1 className='mt-1'><strong>Tea Discoveries</strong></h1>
             </NavbarBrand>
         <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} >
             <i className='fa fa-bars fa-lg'></i><button class="navbar-toggler ml-auto custom-toggler" 
