@@ -10,11 +10,8 @@ const ContactPage = () => {
             <Col sm='4'>
                 <h4>Our Address</h4>
                 <address>
-                    1 Cup Life
+                    Nantou, Taiwan
                     <br/>
-                    Seattle, WA 98001
-                    <br/>
-                    USA
                 </address>
             </Col>
             <Col>
@@ -22,17 +19,17 @@ const ContactPage = () => {
                 <a
                     role='button'
                     className="btn btn-link"
-                    href='tel: +1510-427-7563'
+                    href='tel: +1510-427-7562'
                 >
-                    <i className="fa fa-phone" /> 1-510-427-7563
+                    <i className="fa fa-phone" /> 1-510-427-7562
                 </a>
                 <br/>
                 <a
                     role = 'button'
                     className="btn btn-link"
-                    href='mailto:fakeemail@fakeemail.co'
+                    href='mailto:cindy.psu.h@gmail.com'
                 >
-                    <i className="fa fa-envelope-o"/> campsite@nucamp.co
+                    <i className="fa fa-envelope-o"/> swb@gmail.com
                 </a>
             </Col>
         </Row>

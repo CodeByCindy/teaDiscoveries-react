@@ -65,9 +65,9 @@ const Footer = () => {
                         <a
                             role='button'
                             className='btn btn-link'
-                            href='tel:+15104277563'
+                            href='tel:+15104277562'
                         >
-                        <span>1-510-427-7563</span> 
+                        <span>1-510-427-7562</span> 
                         </a>
                         <br />
                         <a
@@ -75,7 +75,7 @@ const Footer = () => {
                             className='btn btn-link'
                             href='mailto:cindy.psu.h@gmail.com'
                         >
-                            <span>cindy.psu.h@gmail.com</span> 
+                            <span>swb@gmail.com</span> 
                         </a>
                     </Col>
                 </Row>

@@ -26,7 +26,7 @@
     },
     {
       "id": 3,
-      "name": "English Breakfast Tea",
+      "name": "Oriental Beauty Tea",
       "image": "https://i.ibb.co/gSPGMDT/english-breakfast-tea.png",
       "elevation": 877,
       "featured": false,
@@ -38,55 +38,55 @@
       "id": 0,
       "campsiteId": 0,
       "rating": 5,
-      "text": "The grass was indeed greener here than our last campsite.",
-      "author": "Simon Hunt",
+      "text": "Taiwan High Mountain Oolong has become my go-to morning ritual. The delicate floral notes, coupled with a light, refreshing aftertaste, make every cup a serene journey. It's not just tea; it's an experience that awakens the senses.",
+      "author": "Simon Liu",
       "date": "2018-10-25T16:30Z"
     },
     {
       "id": 1,
       "campsiteId": 0,
       "rating": 3,
-      "text": "This lone monkey kept following us back to our tent.",
-      "author": "Zandra Katherine",
+      "text": "Each sip transitions from a buttery smoothness to a sweet, almost peach-like finish.",
+      "author": "Zandra Suzanne",
       "date": "2017-06-17T03:33Z"
     },
     {
       "id": 2,
       "campsiteId": 0,
       "rating": 4,
-      "text": "Do not feed the wildlife. They will follow you back to the tent.",
-      "author": "Amy Keophilavong",
+      "text": "The leaves unfurl beautifully, releasing a subtle yet profound aroma. It's a gentle reminder of nature's simplicity and sophistication.",
+      "author": "Wendy Wang",
       "date": "2019-02-18T18:12Z"
     },
     {
       "id": 3,
       "campsiteId": 0,
       "rating": 3,
-      "text": "Avoid Sundays; couldn't relax and play my flute with all the noisy kids.",
-      "author": "Jean Luc",
+      "text": "Perhaps my expectations were too high, but I found Taiwan High Mountain Oolong slightly underwhelming. It's certainly a fine tea, but I was hoping for a more robust flavor profile.",
+      "author": "Jean Chen",
       "date": "2019-08-04T20:11Z"
     },
     {
       "id": 4,
       "campsiteId": 0,
       "rating": 5,
-      "text": "This has been our favorite campsite for over 7 years. It is an absolutely beautiful site. The hosts are very friendly and helpful. Don't forget to try out the lake.",
-      "author": "R. E. Osariemen",
+      "text": "There's a soothing quality to this tea that I've come to rely on during stressful days. It's my little escape to tranquility, offering a calm that I cherish deeply.",
+      "author": "R. E. Kim",
       "date": "2018-07-23T19:44Z"
     },
     {
       "id": 5,
       "campsiteId": 1,
       "rating": 4,
-      "text": " Stone-ground fresh leaves into a powder for a frothy, creamy, and smooth finish when prepared!.",
-      "author": "Juan Cortez",
+      "text": " There's a robust grassiness at first sip, followed by a lingering, sweet aftertaste. It's this balance between earthiness and sweetness that makes it so captivating.",
+      "author": "Juan Wang",
       "date": "2017-06-17T03:33Z"
     },
     {
       "id": 6,
       "campsiteId": 1,
       "rating": 5,
-      "text": "I caught a world-record-breaking trout here on my last visit.",
+      "text": "Matcha's natural sweetness shines in desserts, providing a nuanced flavor that's hard to replicate.",
       "author": "McKenzie Sebastian",
       "date": "2019-02-18T18:12Z"
     },
@@ -94,7 +94,7 @@
       "id": 7,
       "campsiteId": 1,
       "rating": 5,
-      "text": "The campground was beautiful, but the bugs could bite sometimes.",
+      "text": "I can see its appeal to others, especially with its health benefits, but it's not my cup of tea.",
       "author": "Brennen Ech",
       "date": "2019-08-04T20:11Z"
     },
@@ -102,7 +102,7 @@
       "id": 8,
       "campsiteId": 1,
       "rating": 4,
-      "text": "Love the river but I didn't catch any fish.",
+      "text": "here's a depth to matcha that I find immensely satisfying.",
       "author": "Amy Keophilavong",
       "date": "2018-07-23T19:44Z"
     },
@@ -110,7 +110,7 @@
       "id": 9,
       "campsiteId": 1,
       "rating": 5,
-      "text": "A wonderful place to reconnect with nature.",
+      "text": "its earthy, umami richness to the challenges some face with its grassy bitterness.",
       "author": "Jordan Runn",
       "date": "2019-08-04T20:11Z"
     },
@@ -125,8 +125,8 @@
     {
       "id": 11,
       "campsiteId": 2,
-      "rating": 1,
-      "text": "We had to leave about 2am to go back to the city because the quiet was just too much!",
+      "rating": 5,
+      "text": "I was pleasantly surprised by the complexity hidden within the seeming simplicity of this tea.",
       "author": "Vincent and Mona Lisa Gambini",
       "date": "2018-10-25T16:30Z"
     },
@@ -134,7 +134,7 @@
       "id": 12,
       "campsiteId": 2,
       "rating": 5,
-      "text": "The stars at night were a revelation!",
+      "text": " It's my go-to choice for moments of peaceful contemplation!",
       "author": "Ann Dabramov",
       "date": "2018-07-23T19:44Z"
     },
@@ -142,7 +142,7 @@
       "id": 13,
       "campsiteId": 2,
       "rating": 4,
-      "text": "Great scenic hiking trails but it was challenging to go up the mountain.",
+      "text": "It's an acquired taste, but one that offers rich rewards to the patient tea drinker.",
       "author": "Amy Keophilavong",
       "date": "2018-10-25T16:30Z"
     },
@@ -150,7 +150,7 @@
       "id": 14,
       "campsiteId": 2,
       "rating": 5,
-      "text": "Perfect scenery for a smoked kipper breakfast with friends!",
+      "text": "I've been impressed by its benefits. Not only is it low in caffeine, but it also seems to have a calming effect on my days.",
       "author": "Dave Lister",
       "date": "2019-08-04T20:11Z"
     },
@@ -158,24 +158,24 @@
       "id": 15,
       "campsiteId": 3,
       "rating": 4,
-      "text": "Just remember a bear can run and climb faster than you...",
-      "author": "Markell Richards",
+      "text": "he natural fruity sweetness, complemented by a hint of spice, creates a melody that dances across the palate.",
+      "author": "Markell Lin",
       "date": "2017-06-17T03:33Z"
     },
     {
       "id": 16,
       "campsiteId": 3,
       "rating": 5,
-      "text": "Excellent site to recharge from the city.",
-      "author": "Amy Keophilavong",
+      "text": "The leaves, with their beautiful array of colors, brew into a tea that's both visually and gustatorily stunning.",
+      "author": "Amy Cheng",
       "date": "2018-07-23T19:44Z"
     },
     {
       "id": 17,
       "campsiteId": 3,
       "rating": 5,
-      "text": "What a magnificent view!",
-      "author": "Tinus Lorvaldes",
+      "text": "The pronounced sweetness and floral undertones were a bit too overpowering for my taste!",
+      "author": "Tina Pan",
       "date": "2018-10-25T16:30Z"
     },
     {
@@ -190,7 +190,7 @@
       "id": 19,
       "campsiteId": 3,
       "rating": 5,
-      "text": "The photos don't do justice to the beauty of this place.",
+      "text": "It's a special treat I reserve for moments when I want to indulge in something truly exceptional.",
       "author": "Minae Lee",
       "date": "2019-02-18T18:12Z"
     },

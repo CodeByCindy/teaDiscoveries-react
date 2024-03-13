@@ -27,11 +27,9 @@ const AboutPage = () => {
                         <CardBody>
                             <dl className='row'>
                                 <dt className='col-6'>Founded</dt>
-                                <dd className='col-6'>February 3, 1963</dd>
-                                <dt className='col-6'>No. of Reviews in 2022</dt>
-                                <dd className='col-6'>4388</dd>
+                                <dd className='col-6'>February 2, 1980</dd>
                                 <dt className='col-6'>Employees</dt>
-                                <dd className='col-6'>42</dd>
+                                <dd className='col-6'>4</dd>
                             </dl>
                         </CardBody>
                     </Card>
